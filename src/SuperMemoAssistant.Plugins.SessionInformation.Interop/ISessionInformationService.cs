@@ -5,6 +5,6 @@ namespace SuperMemoAssistant.Plugins.SessionInformation.Interop
 {
   public interface ISessionInformationService
   {
-    IEnumerable<SummarySnapshot> SummarySnapshots { get; }
+    List<SummarySnapshot> SummarySnapshots { get; }
   }
 }

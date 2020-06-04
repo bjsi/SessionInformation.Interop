@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SuperMemoAssistant.Plugins.SessionInformation.Interop</id>
+    <version>0.0.0.0</version>
+    <authors>Jamesb</authors>
+    <owners>Jamesb</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <iconUrl>https://github.com/supermemo/Documentation/raw/master/docs/sma/content/images/icons/robot.ico</iconUrl>
+    <description>.</description>
+    <tags>SuperMemo SuperMemoAssistant Plugin Plugins SessionInformation Interop</tags>
+    <copyright></copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Diff.Match.Patch" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Extensions.System.IO" version="0.1.0.3" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.24" exclude="Build,Analyzers" />
+        <dependency id="PluginManager.Interop" version="0.2.1.46" exclude="Build,Analyzers" />
+        <dependency id="Sentry.Serilog" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="SuperMemoAssistant.Interop" version="2.0.5-alpha.6" exclude="Build,Analyzers" />
+        <dependency id="SuperMemoAssistant.Services.Sentry" version="2.0.5-alpha.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Management" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Runtime.Remoting" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.7.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="SuperMemoAssistant.Plugins.SessionInformation.Interop.dll" target="lib\net472" />
+    <file src="SuperMemoAssistant.Plugins.SessionInformation.Interop.pdb" target="lib\net472" />
+  </files>
+</package>
+
