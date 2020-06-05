@@ -13,6 +13,7 @@ namespace SuperMemoAssistant.Plugins.SessionInformation.Interop.Models
   /// <summary>
   /// An element that exists somewhere along the path between the event element and the collection root.
   /// </summary>
+  [Serializable]
   public class PathNode
   {
     public string Title { get; set; }
@@ -30,6 +31,7 @@ namespace SuperMemoAssistant.Plugins.SessionInformation.Interop.Models
   /// Aggregates the lower level SuperMemo events into a snapshot that summarises
   /// the user's interactions with an element.
   /// </summary>
+  [Serializable]
   public class SummarySnapshot
   {
     // Time Information
